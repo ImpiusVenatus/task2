@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1140px;
+  margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*header css*/
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header-left{
+  display: flex;
+}
+
+.header .header-left ul{
+    margin-left: 30px;
+}
+
+.header .header-left ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 14px 0 0 0;
+  padding-right: 14px;
+}
+
+.header .header-left ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header .header-left ul li a:hover{
+  cursor: pointer;
+  color: #FF6465;
+}
+
+.header .header-right button{
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff6465;
+  color: white;
+  border: none;
+  margin: 14px 80px 0 0;
+  padding: 9px 14px;
+  font-weight: 600;
+}
+
+.header .header-right button:hover{
+  background-color: #d25152;
+  cursor: pointer;
+}
+
+/*body css*/
+
+.body-details{
+  display: flex;
+  margin: 100px 0 0 0;
+  justify-content: center;
+}
+
+.body-1 .body-details .left{
+  padding: 20px 0 0 0;
+  width: 28%;
+}
+
+.body-1 .body-details .left h1 {
+  color: #292640;
+  font-family: 'Roboto', sans-serif;
+}
+.body-1 .body-details .left p{
+  font-family: 'Poppins', sans-serif;
+  color: #B1AEAF;
+  padding: 14px 38px 0 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.gallery{
+    margin: 150px 0 0 0;
+    text-align: center;
+}
+
+.gallery .gallery-desc h1{
+  color: #2D2B44;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+
+.gallery .gallery-desc{
+  width: 45%;
+  margin: auto;
+}
+
+.gallery .gallery-desc p{
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.catalogue{
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.catalogue img{
+  box-shadow: 0px 5px 15px grey;
+}
+
+.catalogue p{
+  padding: 10px 0 0 0;
+  font-family: 'Roboto', sans-serif;
+  color: #2D2B44;
+  font-weight: 600;
+}
+
+.feature{
+    margin: 150px 0 0 0;
+    text-align: center;
+}
+
+.feature .feature-header h1{
+  color: #2D2B44;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+
+.feature .feature-header{
+  width: 45%;
+  margin: auto;
+}
+
+.feature .feature-header p{
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.feature .feature-top{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 225px;
+  font-family: 'Roboto', sans-serif;
+  color: #2D2B44;
+  font-size: 14px;
+}
+
+.feature .feature-top p{
+  padding: 6px 0 20px 0;
+}
+.feature-1{
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.feature-2{
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.feature-3{
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.feature-4{
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.feature-5{
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.feature-6{
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.feature .feature-bottom{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 225px 70px 225px;
+  font-family: 'Roboto', sans-serif;
+  color: #2D2B44;
+  font-size: 14px;
+}
+
+.feature .feature-top h5{
+  margin: 0 10px;
+}
+
+.feature .feature-bottom h5{
+  margin: 0 10px;
+}
+
+.feature .feature-bottom p{
+  padding: 6px 0 20px 0;
+}
+
+footer{
+  background-color: #292640;
+  padding: 60px 0 0 0;
+}
+
+footer h1{
+  margin: auto;
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+
+footer .footer-btn{
+  text-align: center;
+  margin: 20px 0 0 75px;
+  padding-bottom: 40px;
+}
+
+footer .footer-btn button{
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff6465;
+  color: white;
+  border: none;
+  margin: 14px 80px 0 0;
+  padding: 9px 14px;
+  font-weight: 600;
+}
+
+footer .footer-btn button:hover{
+  background-color: #d25152;
+  cursor: pointer;
+}
